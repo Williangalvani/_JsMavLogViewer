@@ -1,0 +1,22 @@
+{
+  "name": "jslogviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js --live",
+    "build": "browserify index.js | uglifyjs -cm > bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mavlink_common_v1.0": "^1.0.1",
+    "tone": "^0.12.80",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "budo": "^11.3.2",
+    "uglify-js": "^3.4.5"
+  }
+}
