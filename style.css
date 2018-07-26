@@ -1,12 +1,9 @@
-body {
-  background: lightGray;
-  font: 12px sans-serif;
-}
 
 #drop_zone {
-  border: 5px solid blue;
+  border: 1px solid blue;
   width:  200px;
   height: 100px;
+  margin: auto;
 }
 
 
